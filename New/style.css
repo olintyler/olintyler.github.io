@@ -1,3 +1,6 @@
+.unselectable {
+  pointer-events: none;
+}
 .chevron-down {
   margin: auto;
   width: 5em;
