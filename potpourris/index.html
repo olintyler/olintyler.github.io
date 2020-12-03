@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Tyler Olin | UX Design</title>
+    <link rel="icon" href="letterlogo.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-lg-4 justify-content-end">
+      <a class="navbar-brand mr-auto unselectable" href="#"><img src="namelogoblack.png"></a>
+      <button class="navbar-toggler" type="button-secondary" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <h5><a class="nav-link" href="../">Portfolio</a></h5>
+          </li>
+          <li class="nav-item">
+            <h5><a class="nav-link" href="../">About Me</a></h5>
+          </li>
+          <li class="nav-item">
+            <h5><a class="nav-link" href="../resume.pdf">Resume</a></h5>
+          </li>
+          <li class="nav-item">
+            <h5><a class="nav-link" href="#"><b>Potpourris</b></a></h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section class="jumbotron text-center" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col p-3 m-3">
+            <h1 class="text-center p-3 jumbo-text">Potpourris</h1>
+            <h5 class="text-center">Other projects that I have worked on but aren't as relevant to my portfolio. Categorized between english composition projects (everything from Photoshopped images to podcasts), publications, and free-time art projects.</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="container-fluid">
+      <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col-auto p-2 m-m-3 text-center">
+          <button class="btn" onclick="filterSelection('engcmp')">
+            <div class="card">
+              <div class="card-body">
+                <h5>✏️ English Composition</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="col-auto p-2 m-m-3 text-center">
+          <button class="btn" onclick="filterSelection('publications')">
+            <div class="card">
+              <div class="card-body">
+                <h5>📚 Publications</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="col-auto p-2 m-m-3 text-center">
+          <button class="btn" onclick="filterSelection('art')">
+            <div class="card">
+              <div class="card-body">
+                <h5>🎨 Art</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container-fluid p-5">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="gal">
+              <div class="col column content unselectable engcmp" data-aos="fade-up">
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oPZyZe87A2A' frameborder='0' allowfullscreen></iframe></div>
+                <h4 class="gallery-name">Misinformation on the Internet</h4>
+                <p class="gallery-description">An essay film about misinformation on the internet in the year 2020.</p>
+              </div>
+              <div class="col column content engcmp" data-aos="fade-up">
+                <img class="gallery-img unselectable" src="content/engcmp/choosefuture.png" alt="ArchiveRemix">
+                <h4 class="gallery-name">Archive Remix</h4>
+                <p class="gallery-description">Photoshop remix project that uses old archival images to form a new image.</p>
+              </div>
+              <div class="col column content engcmp" data-aos="fade-up">
+                <div class="text-center">
+                  <img class="gallery-img unselectable" src="content/engcmp/forestfire.jpg" alt="Minicast">
+                  <audio controls>
+                    <source src="content/engcmp/climate_minicast.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <h4 class="gallery-name">Capitalizing on Climate Change</h4>
+                <p class="gallery-description">A short podcast about the less ethical side of saving the planet. <a href="https://soundcloud.com/pittenglish/sets/the-nightmares-daydreams">View the full collection on SoundCloud</a></p>
+              </div>
+              <div class="column content engcmp" data-aos="fade-up">
+                <img class="gallery-img unselectable" src="content/engcmp/daydream.png" alt="blog-posts">
+                <h4 class="gallery-name">Blog Posts</h4>
+                <p class="gallery-description">Blog posts created for the class detailing pre-production of each project and a wrap-up upon project completion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="galleryfilter.js"></script>
+    <!-- END GRID -->
+
+    <footer class="py-5 bg-dark">
+      <div class="container text-center pb-sm-4">
+        <a href="https://www.linkedin.com/in/tyler-olin-011731179"><img class="img-responsive center-block" src="linkedin.png"></a>
+        <a href="https://github.com/olintyler"><img class="img-responsive center-block" src="github.png"></a>
+        <a href="#contact"><img class="img-responsive center-block" src="mail.png"></a>
+      </div>
+      <div class="container">
+        <p class="m-0 text-center text-white"> &copy; Tyler Olin 2020</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
