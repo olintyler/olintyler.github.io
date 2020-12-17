@@ -259,3 +259,9 @@ button {
 .toggler.navbar-toggler:focus {
   outline-color: white;
 }
+
+audio {
+       width:100% !important;
+       min-height: 30px;
+       display:block;
+    }
