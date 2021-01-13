@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Tyler Olin | UX Design</title>
-    <link rel="icon" href="letterlogo.png">
+    <link rel="icon" href="content/letterlogo.png">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg py-lg-4 justify-content-end">
-      <a class="navbar-brand mr-auto unselectable" href="#"><img src="namelogoblack.png"></a>
+      <a class="navbar-brand mr-auto" href="https://tyler-olin.com"><img class="unselectable" src="content/namelogoblack.png"></a>
       <button class="toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -59,27 +59,27 @@
 
     <!-- Portfolio Gallery Grid -->
     <div class="container-fluid">
-      <div class="row justify-content-center" data-aos="fade-up">
-        <div class="col-auto p-2 m-m-3 text-center">
-          <button class="btn" onclick="filterSelection('engcmp')">
+      <div class="row justify-content-center pb-5" data-aos="fade-up">
+        <div class="col-auto p-3 m-m-3 text-center">
+          <button class="bttn" onclick="filterSelection('engcmp')">
             <div class="card">
               <div class="card-body">
-                <h5>✏️ English Composition</h5>
+                <h5>🎤 Media Projects</h5>
               </div>
             </div>
           </button>
         </div>
-        <div class="col-auto p-2 m-m-3 text-center">
-          <button class="btn" onclick="filterSelection('publications')">
+        <div class="col-auto p-3 m-m-3 text-center">
+          <button class="bttn" onclick="filterSelection('publications')">
             <div class="card">
               <div class="card-body">
-                <h5>📚 Publications</h5>
+                <h5>📚 Writing Design</h5>
               </div>
             </div>
           </button>
         </div>
-        <div class="col-auto p-2 m-m-3 text-center">
-          <button class="btn" onclick="filterSelection('art')">
+        <div class="col-auto p-3 m-m-3 text-center">
+          <button class="bttn" onclick="filterSelection('art')">
             <div class="card">
               <div class="card-body">
                 <h5>🎨 Art</h5>
@@ -92,20 +92,21 @@
 
     <div class="wrapper">
       <div class="container-fluid">
-        <div class="col-md-12">
+        <div class="col-md-12 pb-5">
           <div class="gal-row">
             <div class="gal">
-              <div class="col column content unselectable engcmp" data-aos="fade-up">
+              <!---Media Projects-->
+              <div class="col column content unselectable engcmp" >
                 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oPZyZe87A2A' frameborder='0' allowfullscreen></iframe></div>
                 <h4 class="gallery-name">Misinformation on the Internet</h4>
                 <p class="gallery-description">An essay film about misinformation on the internet in the year 2020.</p>
               </div>
-              <div class="col column content engcmp" data-aos="fade-up">
+              <div class="col column content engcmp" >
                 <img class="gallery-img unselectable" src="content/engcmp/choosefuture.png" alt="ArchiveRemix">
                 <h4 class="gallery-name">Archive Remix</h4>
                 <p class="gallery-description">Photoshop remix project that uses old archival images to form a new image.</p>
               </div>
-              <div class="col column content engcmp" data-aos="fade-up">
+              <div class="col column content engcmp" >
                 <div class="text-center">
                   <img class="gallery-img unselectable" src="content/engcmp/forestfire.jpg" alt="Minicast">
                   <audio controls>
@@ -116,11 +117,55 @@
                 <h4 class="gallery-name">Capitalizing on Climate Change</h4>
                 <p class="gallery-description">A short podcast about the less ethical side of saving the planet. <a href="https://soundcloud.com/pittenglish/sets/the-nightmares-daydreams">View the full collection on SoundCloud</a></p>
               </div>
-              <div class="column content engcmp" data-aos="fade-up">
+              <div class="column content engcmp" >
                 <a href="about/">
                 <img class="gallery-img unselectable" src="content/engcmp/daydream.png" alt="blog-posts">
                 <h4 class="gallery-name">About these projects</h4>
-                <p class="gallery-description">Learn about the class I made these projects for and the reasons behind the topics that I chose</p>
+                <p class="gallery-description">Learn about the class I made these projects for and the reasons behind the topics that I chose.</p>
+                </a>
+              </div>
+              <!---Writing Design-->
+              
+              <div class="column content publications" >
+                <a href="content/publications/self-defined.pdf">
+                <img class="gallery-img unselectable" src="content/publications/powerofdesign.png" alt="self-defined">
+                <h4 class="gallery-name">Power of Design</h4>
+                <p class="gallery-description">A publication about how to use design for social change.</p>
+                </a>
+              </div>
+              <div class="column content publications" >
+                <a href="content/publications/sustainedArg.pdf">
+                <img class="gallery-img unselectable" src="content/publications/GND.png" alt="sustained-arg">
+                <h4 class="gallery-name">The Green New Deal Explained</h4>
+                <p class="gallery-description">A booklet explaining why it's necessary to support the Green New Deal.</p>
+                </a>
+              </div>
+              <div class="column content publications" >
+                <a href="content/publications/textureDimension.pdf">
+                <img class="gallery-img unselectable" src="content/publications/nasa.png" alt="texture-dimension">
+                <h4 class="gallery-name">NASA 51st Anniversary</h4>
+                <p class="gallery-description">A poster commemorating the 51st anniversary since the NASA moon landing that is meant to show texutre and dimension of writing design.</p>
+                </a>
+              </div>
+              <div class="column content publications" >
+                <a href="content/publications/pittVotes.pdf">
+                <img class="gallery-img unselectable" src="content/publications/pittVotes.png" alt="texture-dimension">
+                <h4 class="gallery-name">Pitt Votes</h4>
+                <p class="gallery-description">A publication explaining the importance of voting and how Pitt students can participate.</p>
+                </a>
+              </div>
+              <div class="column content publications" >
+                <a href="content/publications/magazineProj.pdf">
+                <img class="gallery-img unselectable" src="content/publications/bartendr.png" alt="texture-dimension">
+                <h4 class="gallery-name">Bartendr</h4>
+                <p class="gallery-description">A quick magazine layout publication example.</p>
+                </a>
+              </div>
+              <div class="column content publications" >
+                <a href="content/publications/designPortfolio.pdf">
+                <img class="gallery-img unselectable" src="content/publications/finalportfolio.png" alt="final-portfolio" style="width: 80%;">
+                <h4 class="gallery-name">Final Design Portfolio</h4>
+                <p class="gallery-description">The final portfolio in my writing design class.</p>
                 </a>
               </div>
             </div>
@@ -133,12 +178,12 @@
 
     <footer class="py-5 bg-dark">
       <div class="container text-center pb-sm-4">
-        <a href="https://www.linkedin.com/in/tyler-olin-011731179"><img class="img-responsive center-block" src="linkedin.png"></a>
-        <a href="https://github.com/olintyler"><img class="img-responsive center-block" src="github.png"></a>
-        <a href="#contact"><img class="img-responsive center-block" src="mail.png"></a>
+        <a href="https://www.linkedin.com/in/tyler-olin-011731179"><img class="img-responsive center-block" src="content/linkedin.png"></a>
+        <a href="https://github.com/olintyler"><img class="img-responsive center-block" src="content/github.png"></a>
+        <a href="#contact"><img class="img-responsive center-block" src="content/mail.png"></a>
       </div>
       <div class="container">
-        <p class="m-0 text-center text-white"> &copy; Tyler Olin 2020</p>
+        <p class="m-0 text-center text-white"> &copy; Tyler Olin 2021</p>
       </div>
       <!-- /.container -->
     </footer>
