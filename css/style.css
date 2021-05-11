@@ -83,9 +83,18 @@ footer h4 {
 }
 
 .jumbo-text {
-  font-family: 'Arvo', serif !important;
+  font-family: 'Arvo', serif;
   font-size: 6vh;
-  margin-top: 16%;
+  margin-top: 30%;
+  color:#ff0000;
+}
+
+.jumbo-img {
+  width: 100%;
+  margin: auto;    
+  display: block;
+  border-radius: 5px;
+  filter: drop-shadow(10px 10px 4px #ccc);
 }
 
 .jumbo-caption {
@@ -94,12 +103,9 @@ footer h4 {
 }
 
 .jumbotron {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
 }
 
-.navbar {
-  background-color: #ffffff;
-}
 .navbar .navbar-brand {
   color: #ff0000;
 }
