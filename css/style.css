@@ -7,15 +7,11 @@ html {
 }
 
 .toggler.navbar-toggler {
-  border-color: white;
+  border-color: #f6f4f1;
 }
 
 .toggler.navbar-toggler:focus {
-  outline-color: white;
-}
-
-section {
-  padding: 150px 0;
+  outline-color: #f6f4f1;
 }
 
 .unselectable {
@@ -44,6 +40,7 @@ a {
 
 body {
   font-family: 'Tajawal', sans-serif !important;
+  background-color: #f6f4f1 !important;
 }
 
 h1 {
@@ -103,7 +100,11 @@ footer h4 {
 }
 
 .jumbotron {
-  background-color: #fff !important;
+  background-color: #f6f4f1 !important;
+}
+
+#portfolio {
+  background-color: #ffffff;
 }
 
 .navbar .navbar-brand {
@@ -139,14 +140,14 @@ footer h4 {
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
   color: #ffbbbc;
-  background-color: #ffffff;
+  background-color: #f6f4f1;
 }
 .navbar .navbar-toggler {
-  border-color: #ffffff;
+  border-color: #f6f4f1;
 }
 .navbar .navbar-toggler:hover,
 .navbar .navbar-toggler:focus {
-  background-color: #ffffff;
+  background-color: #f6f4f1;
 }
 .navbar .navbar-toggler .navbar-toggler-icon {
   color: #ff0000;
@@ -172,7 +173,7 @@ footer h4 {
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ffbbbc;
-    background-color: #ffffff;
+    background-color: #f6f4f1;
   }
 }
 
@@ -186,7 +187,7 @@ footer h4 {
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ffbbbc;
-    background-color: #ffffff;
+    background-color: #f6f4f1;
   }
 }
 
@@ -200,7 +201,7 @@ footer h4 {
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ffbbbc;
-    background-color: #ffffff;
+    background-color: #f6f4f1;
   }
 }
 
@@ -214,7 +215,7 @@ footer h4 {
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ffbbbc;
-    background-color: #ffffff;
+    background-color: #f6f4f1;
   }
 }
 
@@ -227,7 +228,7 @@ footer h4 {
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #ffbbbc;
-  background-color: #ffffff;
+  background-color: #f6f4f1;
 }
 
 .downArrow{
