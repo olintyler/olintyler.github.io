@@ -288,28 +288,3 @@ footer h4 {
     transform: translateY(-15px);
   }
 }
-
-@media (max-width: 992px) {
-  .navbar-collapse {
-      position: absolute;
-      top: 54px;
-      right: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      width: 100%;
-      transition: all 0.3s ease;
-      display: block;
-      background-color: #fff !important;
-  }
-  .navbar-collapse.collapsing {
-      height: auto !important;
-      margin-right: 50%;
-      transition: all 0.3s ease;
-      display: block;
-      transition:height 0s !important;
-  }
-  .navbar-collapse.show {
-      right: 0;
-  }
-}
